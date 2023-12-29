@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        height: 100%;
+        width: 100%;
+        font-family:Oswald;
+    }
+    header h1{
+        text-align: center;
+        font-size: 3rem;
+        width: 70%;
+        margin: 0 15%;
+    }
+    header h1:hover{
+        cursor: pointer;
+        background-color: rgb(221, 247, 221);
+        border: 1px solid lightgreen;
+        border-radius: 10px;
+    }
+    header span{
+        color: rgb(65, 18, 195);
+    }
+    .submenu span{
+        margin-top: 1rem;
+    }
+    .submenu img{
+        height: 1rem;
+    }
+    .submenu span{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .submenu span:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: blue;
+        margin-top: 1rem;
+    }
+    .submenu ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    .submenu li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: blue;
+    }
+    .one{
+        margin-bottom: 2rem;
+    }
+    .one h1{
+        margin-top: 2rem;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .one h1:hover{
+        cursor: pointer;
+        color: coral;
+    }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 2px 3px 4px 3px rgb(125, 125, 209);
+    }
+    .maa{
+        border: none;
+        background-color: white;
+        margin: 1rem;
+        border: 1px solid black;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 50px;
+        background: linear-gradient(to right, rgb(118, 118, 241), white);
+        color: black;
+
+    }
+    button img{
+        height: 0.5rem;
+    }
+    .one{
+        margin-bottom:4rem;
+
+    }
+    .feature{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 1.5rem;
+    }
+    .feature img{
+        height: 2rem;
+        margin-left: 1rem;
+    }
+    .feature i{
+        margin-left: 0.6rem;
+    }
+    .one .right{
+        position: relative;
+        margin-top: 2rem;
+    }
+    .one .right .foreground{
+        width: 60%;
+        height: auto;
+        margin-top: -1.5rem;
+        margin-left: 30%;
+    }
+    .one .right .background{
+        width: 100%;
+        height: 110%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+    .two .left{
+        position: relative;
+    }
+    .two .left .foreground{
+        width: 60%;
+        height: auto;
+        margin-top: -3rem;
+        margin-left: 5%;
+    }
+    .two .left .background{
+        width: 60%;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    h2{
+        margin: 1rem;
+        margin-left: 1rem;
+        font-size: 2rem;
+        margin-top: -1rem;
+    }
+    .two .right button{
+        border: none;
+        background-color: white;
+        margin: 2rem;
+        border: 1px solid black;
+        height: 3rem;
+        width: 30%;
+        border-radius: 50px;
+        background-color: blue;
+        color: aliceblue;
+    }
+
+     p{
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+    .three h1{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .three h5{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .three ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .three li:hover{
+       cursor: pointer;
+       text-decoration:underline;
+       color: rgb(255, 0, 76);
+    }
+    .three ul img{
+        height: 4rem;
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+    .three ul img:hover{
+        cursor: pointer;
+        height: 5rem;
+        color: blue;
+    }
+    .three h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .four{
+        height:100%;
+    }
+    .four .gayi{
+        margin: 0 20%;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .four h6{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .four h6:hover{
+        cursor: pointer;
+        background-color: orangered;
+    }
+    .four h1{
+        text-align: center;
+    }
+    .four h1:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: orangered;
+    }
+    .four .raju {
+         border: 1px solid black;
+         background-color: rgb(245, 95, 9);
+         margin: 2rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         border-radius: 20px;
+    }
+    .four .gayi .raju img{
+        width: 50%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    button{
+        border: none;
+        background-color: rgb(250, 63, 6);
+        margin: 1rem;
+        border: 1px solid black;
+        height: 2rem;
+        width:5rem;
+        border-radius: 50px;
+        background-color:white;
+        color: black;
+        margin-right: 1rem;
+        font-size: 0.5rem;
+    }
+    .four .gayi .raju .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .four .gayi .raju .bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    em{
+        margin-top: 0.5rem;
+    }
+    b{
+        margin-top: 1.7rem;
+        font-size: 80%;
+        margin-left: 1rem;
+    }
+    .chitti{
+        width: 30%;
+        margin-left: 43%;
+        background-color: blue;
+        width: 13%;
+        margin-bottom: 20%;
+    }
+    .five{
+       background: linear-gradient(to bottom,white,blue);
+       margin-top: 10%;
+    }
+    .five .top{
+
+    }
+    .five .top img{
+        height: 4rem;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .five .top .bujji{
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 40%;
+        width: 90%;
+        position: relative;
+        margin-left: 7%;
+        background-color: white;
+    }
+    .five .top .bujji:hover{
+        cursor: pointer;
+        box-shadow: 5px 5px 5px 5px lightblue;
+    }
+    .five .top .flower{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .five .special{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .five .top p{
+        font-size: 1rem;
+    }
+    .five .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid black;
+        width: 60%;
+        height: 2rem;
+        border-radius: 50px;
+        margin-left: 15%;
+    }
+    .five .center:hover{
+        cursor: pointer;
+        box-shadow: 3px 2px 3px 2px lightblue;
+    }
+    input{
+        border: none;
+        outline: none;
+        margin-left:1%;
+        width: 60%;
+    }
+    .phone{
+        font-size: 0.6rem;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 25%;
+        padding-left: 1%;
+        background-color:rgb(253, 45, 45) ;
+        color: white;
+        height: 1.6rem;
+        padding-top: 0.5rem;
+        margin-right: 1%;
+    }
+    .four .raju:hover{
+        cursor: pointer;
+        box-shadow: 3px 4px 5px 6px lightgreen;
+    }
+    .five .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+    .five .bottom ul{
+        list-style: none;
+        margin-left: 0.3rem;
+    }
+    .five .bottom ul:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .five .bottom h3{
+        font-size: 0.8rem;
+    }
+    .five .bottom li{
+        font-size: 0.5rem;
+        margin-top: 0.3rem;
+    }
+
+/* tablets*/
+@media screen  and (min-width:550px){
+    header h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        width: 30%;
+        margin: 2% 35%;
+    }
+    .submenu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .submenu ul{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin-right: 1rem;
+    }
+    .one .left h1{
+        font-size: 3rem;
+    }
+    .one .left p{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .maa{
+        width: 10rem;
+        margin-left: 8%;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .one .features i{
+        font-size: 1rem;
+    }
+    .one .features img{
+        height: 2.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    button{
+        width: 10%;
+    }
+    .three h1{
+        font-size: 2.5rem;
+    }
+    .three h5{
+        font-size: 1.3rem;
+    }
+    .three ul{
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+        margin-left: 1rem;
+    }
+    .four h6{
+        font-size: 2rem;
+    }
+    .four h1{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .four .gayi{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         margin:0 10%;
+         margin-top: 10%;
+    }
+    .four .gayi .raju .bottom .king{
+        width: 40%;
+    }
+    button{
+        width: 30%;
+        margin: 2rem 0;
+    }
+    b{
+        margin: 2.5rem 0;
+        margin-left: 1rem;
+    }
+    .chitti{
+        margin-left: 45%;
+        margin-top: 1rem;
+    }
+    .five .bottom ul{
+        font-size: 1rem;
+    }
+    .five .bottom{
+        padding-bottom: 5%;
+    }
+    .five .top{
+        margin-top: -10%;
+    }
+    .five .top p{
+        text-align: center;
+    }
+    .five .top h1{
+        margin: 0 14%;
+    }
+    .five .top .center{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .five .bottom h3{
+        font-size: 1rem;
+    }
+    .five .bottom h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }.five .bottom li{
+        font-size: 0.7rem;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+    }
+    .five .top .bujji{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+}
+@media screen and (min-width:1030px) {
+    body{
+    
+    }
+    
+    header{
+        display: flex;
+        height: 15vh;
+        align-items: center;
+        width: 70%;
+    }
+    header h1{
+        width: 50%;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        padding:0 1% ;
+        text-align: center; 
+        margin-right: 2rem;
+        padding-right: 2rem;
+    }
+    header .submenu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 1rem;
+       
+    }
+    .submenu span{
+        width: 30%;
+        font-size: 1rem;
+
+    }
+    .one {
+        display: flex;
+        height: 80vh;
+        position: relative;
+    }
+    .one .left{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .one .left h1{
+        font-size: 2.5rem;
+        text-align: start;
+    }
+    .one .left .lower{
+        display: flex;
+        flex-direction: column;
+    }
+    .one .right{
+       width: 50%; 
+       position: relative;
+    }
+    .one .right .foreground{
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+        position: absolute;
+        bottom: 5%;
+        left: 0%;
+    }
+    .one .right .background{
+        height: 140%;
+        width: 200%;
+        position: absolute;
+        top: -25%;
+        right: 0;
+    }
+    .one .left .features{
+        display: flex;
+        flex-direction: row;
+        margin-top: 17vh;
+    }
+    .one .left .features img{
+        height: 1.5rem;
+    }
+    .one .left .feature i{
+        font-size: 0.8rem;
+    }
+    .two{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10%;
+        position: relative;
+    }
+    .two .left{
+        width: 50%;
+    }
+    .two .right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .two .left .background{
+        height: 100%;
+        width: 130%;
+    }
+    .two .right button{
+        width: 15%;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .two .left .foreground{
+        height: 90%;
+        width: 80%;
+        position: absolute;
+        top: 5%;
+    }
+    .three{
+        margin: 15% 0;
+    }
+    .three ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .four .raju{
+        display: flex;
+        flex-direction: column;
+    }
+    .four .gayi{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 85%;
+    }
+    .four .chitti{
+        background-color: blue;
+        width: 10%;
+    }
+    .five{
+        height: 90%;
+        width: 100%;
+        background: linear-gradient(to bottom,white,blue);
+    }
+    .five .top{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .five .top .center{
+        width: 50%;
+        margin-left: 25%;
+    }
+    h1{
+        text-align: center;
+    }
+    .five .bottom h3{
+        font-size: 1.5rem;
+    }
+    .five .bottom li{
+        font-size: 0.8rem;
+
+    }
+    .five .top img{
+        height: 7rem;
+    }
+    .five .top .bujji{
+        width: 90%;
+        margin:0 8% ;
+    }
+}
